@@ -13,7 +13,7 @@ The primary goal of this repository is to streamline the troubleshooting process
   - [How to Use This Repository](https://www.google.com/search?q=%23how-to-use-this-repository)
   - [Repository Structure](https://www.google.com/search?q=%23repository-structure)
   - [Ticket Playbooks](https://www.google.com/search?q=%23ticket-playbooks)
-  - [Contributing](https://www.google.com/search?q=%23contributing)
+
 
 ## How to Use This Repository
 
