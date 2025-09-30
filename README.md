@@ -1,9 +1,4 @@
 
-You have already provided the content for the `README.md` file. Would you like me to provide it again?
-
-If so, I will provide the detailed version with the table and badges as you requested previously.
-
-Here is the complete content for the **`README.md`** file.
 
 -----
 
@@ -73,11 +68,3 @@ A list of all P3 tickets documented in this repository:
 | **012** | [Logging for lodo lbs is not being seen in Elastic](https://www.google.com/search?q=tickets/12-logging-for-lodo-lbs-not-seen.md) | **Complete** |
 | **013** | [Elastic/Kibana Arrange RADIUS account issue](https://www.google.com/search?q=tickets/13-elastic-kibana-radius-account-issue.md) | **Complete** |
 
-## Contributing
-
-We welcome contributions to this repository. To contribute, please follow these guidelines:
-
-1.  Fork the repository.
-2.  Create a new branch for your changes (`git checkout -b feature/your-contribution`).
-3.  Add or update a Markdown file in the `tickets` directory.
-4.  Submit a Pull Request with a clear description of your changes.
