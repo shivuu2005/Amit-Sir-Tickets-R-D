@@ -8,11 +8,11 @@ This repository serves as a centralized, living knowledge base for DevOps and Si
 The primary goal of this repository is to streamline the troubleshooting process, standardize resolution methods, and empower team members with clear, actionable guidance. By documenting solutions and workflows, we aim to reduce resolution time, minimize cognitive load, and promote consistency across the team.
 
 ## Table of Contents
-**
+
   - How to Use This Repository
   - Repository Structure
   - Ticket Playbooks
-  - Contributing**
+  - Contributing
 
 ## How to Use This Repository
 
