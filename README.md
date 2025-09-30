@@ -74,7 +74,7 @@ A list of all documented P3 tickets. **Click on the Ticket Name to view the full
 | :-- | :--- | :--- |
 | **001** | [Missing Linux Syslog events](https://www.google.com/search?q=Tickets/missing-linux-syslog-events.md) | **Complete** |
 | **002** | [No AMP data available anymore](https://www.google.com/search?q=Tickets/no-amp-data-available.md) | **Complete** |
-| **003** | [CCD13 clusters log events not visible in Kibana](https://www.google.com/search?q=Tickets/ccd13-clusters-log-events.md) | **Complete** |
+| **003** | [https://github.com/shivuu2005/Amit-Sir-Tickets-R-D/blob/main/Tickets/ccd13-clusters-log-events.md) | **Complete** |
 | **004** | [Connection to APM down](https://www.google.com/search?q=Tickets/connection-to-apm-down.md) | **Complete** |
 | **005** | [My new rules are no more running](https://www.google.com/search?q=Tickets/my-new-rules-are-no-more-running.md) | **Complete** |
 | **006** | [Incorrect parsing noticed for lodo OTN](https://www.google.com/search?q=Tickets/incorrect-parsing-lodo-otn.md) | **Complete** |
