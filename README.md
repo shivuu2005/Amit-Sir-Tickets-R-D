@@ -1,6 +1,3 @@
-Okay, I can help you with that. The `README.md` file I provided previously is a solid starting point. To make it more detailed and impressive for your GitHub repository, we can add a table of contents, badges, and a more descriptive introduction.
-
-Here is a more detailed `README.md` file that includes those elements, and I'll include a link to a helpful video on adding diagrams to your README.
 
 -----
 
@@ -11,11 +8,11 @@ This repository serves as a centralized, living knowledge base for DevOps and Si
 The primary goal of this repository is to streamline the troubleshooting process, standardize resolution methods, and empower team members with clear, actionable guidance. By documenting solutions and workflows, we aim to reduce resolution time, minimize cognitive load, and promote consistency across the team.
 
 ## Table of Contents
-
-  - [How to Use This Repository]
-  - [Repository Structure]
-  - [Ticket Playbooks]
-  - [Contributing]
+**
+  - How to Use This Repository
+  - Repository Structure
+  - Ticket Playbooks
+  - Contributing**
 
 ## How to Use This Repository
 
