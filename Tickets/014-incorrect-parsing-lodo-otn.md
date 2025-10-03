@@ -1,6 +1,6 @@
 # Ticket: Elastic Parsing of Lodo OTN
 
-**Problem ID:** P3-016  
+
 
 ### 1. Problem Description
 Elastic is ingesting Lodo OTN logs but fields are not parsed correctly, leading to incomplete data in Kibana.
