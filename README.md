@@ -1,6 +1,9 @@
 
------
+---
 
+
+
+```markdown
 # DevOps Ticket Resolution Playbooks
 
 This repository serves as a centralized, living knowledge base for DevOps and Site Reliability Engineering (SRE) teams. It contains a collection of detailed playbooks for diagnosing and resolving common P3 (Priority 3) tickets, which typically involve issues that are important but not immediately service-impacting.
@@ -29,22 +32,27 @@ To effectively use this playbook, follow these steps:
 The repository is organized into a single `tickets` directory, with one Markdown file for each ticket. Each file is a self-contained playbook for a specific issue.
 
 ```
+
 devops-ticket-playbooks/
 ├── tickets/
-│   ├── 1-missing-linux-syslog-events.md
-│   ├── 2-no-amp-data-available.md
-│   ├── 3-ccd13-clusters-log-events.md
-│   ├── 4-connection-to-apm-down.md
-│   ├── 5-my-new-rules-are-no-more-running.md
-│   ├── 6-incorrect-parsing-lodo-otn.md
-│   ├── 7-new-kafka-topic-to-be-processed.md
-│   ├── 8-parsing-error-soc-windows.md
-│   ├── 9-current-buffer-size-settings.md
-│   ├── 10-use-more-s3-buckets.md
-│   ├── 11-solcon-logging-not-seen.md
-│   ├── 12-logging-for-lodo-lbs-not-seen.md
-│   └── 13-elastic-kibana-radius-account-issue.md
+│   ├── 001-current-buffer-size-s3.md
+│   ├── 002-use-more-s3-buckets.md
+│   ├── 003-parsing-error-soc-windows.md
+│   ├── 004-no-amp-data-available.md
+│   ├── 005-ccd13-clusters-log-events.md
+│   ├── 006-rules-expected-alertsclient-null.md
+│   ├── 007-my-new-rules-not-running.md
+│   ├── 008-connection-to-apm-down.md
+│   ├── 009-missing-linux-syslog-events.md
+│   ├── 010-solcon-logging-not-seen.md
+│   ├── 011-parsing-error-lodo-jam.md
+│   ├── 012-logging-lodo-lbs-not-seen.md
+│   ├── 013-new-kafka-topic-to-be-processed.md
+│   ├── 014-incorrect-parsing-lodo-otn.md
+│   ├── 015-elastic-parsing-lodo-otn.md
+│   └── 016-elastic-kibana-radius-account-issue.md
 └── README.md
+
 ```
 
 ## 📑 Ticket Playbooks
@@ -53,20 +61,26 @@ A list of all documented P3 tickets. **Click on the Ticket Name to view the full
 
 | ID | Ticket Name | Status |
 | :-- | :--- | :--- |
-| **001** | [Missing Linux Syslog events](Tickets/missing-linux-syslog-events.md) | **Complete** |
-| **002** | [No AMP data available anymore](Tickets/no-amp-data-available.md) | **Complete** |
-| **003** | [CCD13 clusters log events not visible in Kibana](Tickets/ccd13-clusters-log-events.md) | **Complete** |
-| **004** | [Connection to APM down](Tickets/connection-to-apm-down.md) | **Complete** |
-| **005** | [My new rules are no more running](Tickets/my-new-rules-are-no-more-running.md) | **Complete** |
-| **006** | [Incorrect parsing noticed for lodo OTN](Tickets/incorrect-parsing-lodo-otn.md) | **Complete** |
-| **007** | [New kafka topic to be processed](Tickets/new-kafka-topic-to-be-processed.md) | **Complete** |
-| **008** | [Parsing error in the index soc-windows](Tickets/parsing-error-soc-windows.md) | **Complete** |
-| **009** | [Current buffer size settings s3 repositories](Tickets/current-buffer-size-settings.md) | **Complete** |
-| **010** | [We would like you to use more s3 buckets for distributing load](Tickets/use-more-s3-buckets.md) | **Complete** |
-| **011** | [Solcon logging is not being seen in Elastic](Tickets/solcon-logging-not-seen.md) | **Complete** |
-| **012** | [Logging for lodo lbs is not being seen in Elastic](Tickets/logging-for-lodo-lbs-not-seen.md) | **Complete** |
-| **013** | [Elastic/Kibana Arrange RADIUS account issue](Tickets/elastic-kibana-radius-account-issue.md) | **Complete** |
+| **001** | [Current buffer size settings s3 repositories](Tickets/001-current-buffer-size-s3.md) | **Complete** |
+| **002** | [We would like you to use more s3 buckets for distributing load](Tickets/002-use-more-s3-buckets.md) | **Complete** |
+| **003** | [Parsing error in the index soc-windows](Tickets/003-parsing-error-soc-windows.md) | **Complete** |
+| **004** | [No AMP data available anymore since 2nd September 03:40](Tickets/004-no-amp-data-available.md) | **Complete** |
+| **005** | [CCD13 clusters log events not visible in Kibana](Tickets/005-ccd13-clusters-log-events.md) | **Complete** |
+| **006** | [Rules are giving the error "Expected alertsClient not to be null"](Tickets/006-rules-expected-alertsclient-null.md) | **Complete** |
+| **007** | [My new rules are no more running](Tickets/007-my-new-rules-not-running.md) | **Complete** |
+| **008** | [Connection to APM down](Tickets/008-connection-to-apm-down.md) | **Complete** |
+| **009** | [Missing Linux Syslog events](Tickets/009-missing-linux-syslog-events.md) | **Complete** |
+| **010** | [Solcon logging is not being seen in Elastic](Tickets/010-solcon-logging-not-seen.md) | **Complete** |
+| **011** | [Parsing for lodo jam not going correctly](Tickets/011-parsing-error-lodo-jam.md) | **Complete** |
+| **012** | [Logging for lodo lbs is not being seen in Elastic](Tickets/012-logging-lodo-lbs-not-seen.md) | **Complete** |
+| **013** | [New kafka topic to be processed](Tickets/013-new-kafka-topic-to-be-processed.md) | **Complete** |
+| **014** | [Incorrect parsing noticed for lodo OTN](Tickets/014-incorrect-parsing-lodo-otn.md) | **Complete** |
+| **015** | [Elastic parsing of lodo OTN](Tickets/015-elastic-parsing-lodo-otn.md) | **Complete** |
+| **016** | [Elastic/Kibana Arrange RADIUS account issue](Tickets/016-elastic-kibana-radius-account-issue.md) | **Complete** |
+```
+
+---
 
 
------
 
+Shivam, kya chahte ho mai aapke liye ek **ready-to-upload updated README.md file** bhi generate kar du?
