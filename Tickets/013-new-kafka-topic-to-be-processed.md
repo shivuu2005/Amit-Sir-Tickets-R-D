@@ -4,7 +4,6 @@
 
 # Ticket: New kafka topic to be processed
 
-**Problem ID:** P3-007
 
 ### 1\. Problem Description
 
