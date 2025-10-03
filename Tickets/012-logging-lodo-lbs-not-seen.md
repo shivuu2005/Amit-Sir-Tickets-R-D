@@ -3,7 +3,7 @@
 
 # Ticket: Logging for lodo lbs is not being seen in Elastic
 
-**Problem ID:** P3-012
+
 
 ### 1\. Problem Description
 
