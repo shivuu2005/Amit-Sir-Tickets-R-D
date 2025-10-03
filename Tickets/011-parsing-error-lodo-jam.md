@@ -4,7 +4,6 @@
 
 # Ticket: Incorrect parsing noticed for lodo OTN
 
-**Problem ID:** P3-006
 
 ### 1\. Problem Description
 
